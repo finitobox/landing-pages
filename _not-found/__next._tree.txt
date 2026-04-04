@@ -1,4 +1,4 @@
 :HL["/_next/static/chunks/2ef5e851a416748d.css","style"]
-:HL["/_next/static/chunks/bbbf29a4eae462d3.css","style"]
+:HL["/_next/static/chunks/27fa397b44bab404.css","style"]
 :HL["https://fonts.cdnfonts.com/css/lufga","style"]
-0:{"buildId":"VIAqXf5K9mSF48ssIIn7l","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"9BlYMxktlY2OQUMnnvoLL","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
