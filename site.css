@@ -103,7 +103,8 @@ footer .copy{border-top:1px solid #222a26;margin-top:28px;padding-top:20px;font-
 
 /* telefon */
 @media (max-width:900px){
-  .nav .links,.nav .right .ghost{display:none}
+  .nav .links{display:none}
+  .nav .right .btn{padding:9px 13px;font-size:13.5px}
   .hero{padding:44px 0 64px}
   .hero .wrap{grid-template-columns:1fr;gap:40px}
   h1{font-size:40px}

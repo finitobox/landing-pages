@@ -9,7 +9,7 @@
 <meta property="og:description" content="Yapay zekâ destekli hizmet bulma. Talebini yaz, bölgendeki ustalar sana yazsın.">
 <meta property="og:image" content="https://finitobox.com/finitobox_app-01.png">
 <link rel="icon" href="/icon.svg">
-<link rel="stylesheet" href="/site.css?v=3">
+<link rel="stylesheet" href="/site.css?v=4">
 </head>
 <body>
 
@@ -23,6 +23,7 @@
       <a href="/hakkinda">Hakkında</a>
     </nav>
     <div class="right">
+      <a class="btn ghost" href="/app/">Giriş yap</a>
       <a class="btn dark js-store" href="#indir">Uygulamayı indir</a>
     </div>
   </div>
@@ -34,9 +35,9 @@
       <h1>İhtiyacını yaz,<br><em>ustalar sana yazsın.</em></h1>
       <p class="sub">Ne istediğini kendi cümlelerinle anlat. Finito talebini anlar, bölgendeki doğru ustalara iletir. Teklifler sana gelir, numaran sen isteyene kadar gizli kalır.</p>
       <div class="ask">
-        <textarea placeholder="Örn. Mutfak musluğum damlatıyor, bu hafta biri bakabilir mi?" aria-label="İhtiyacınızı yazın"></textarea>
+        <textarea id="ask" placeholder="Örn. Mutfak musluğum damlatıyor, bu hafta biri bakabilir mi?" aria-label="İhtiyacınızı yazın"></textarea>
         <div class="row">
-          <a class="btn green js-store" href="#indir">Ustalara sor →</a>
+          <a class="btn green" id="askBtn" href="/app/#/talep">Ustalara sor →</a>
         </div>
       </div>
       <div class="chips">
@@ -163,6 +164,14 @@
   var url = /iPhone|iPad|iPod/i.test(ua) ? 'https://apps.apple.com/tr/app/finitobox-hizmet-bul/id6760509613'
           : /Android/i.test(ua) ? 'https://play.google.com/store/apps/details?id=com.finitobox.app&hl=tr' : null;
   if (url) document.querySelectorAll('.js-store').forEach(function(a){ a.href = url; });
+})();
+</script>
+<script>
+// Kutuya yazılan talep web uygulamasında kaldığı yerden devam eder
+(function(){
+  var go=function(e){ var t=(document.getElementById('ask').value||'').trim(); try{ if(t) localStorage.setItem('finito-pending-q', t); }catch(_){} };
+  document.getElementById('askBtn').addEventListener('click', go);
+  document.querySelectorAll('.chips span').forEach(function(s){ s.style.cursor='pointer'; s.addEventListener('click', function(){ var a=document.getElementById('ask'); a.value=s.textContent+' '; a.focus(); }); });
 })();
 </script>
 </body>
