@@ -139,3 +139,18 @@ footer .copy{border-top:1px solid #222a26;margin-top:28px;padding-top:20px;font-
 .logo img.wm{width:auto;height:42px;border-radius:0}
 footer .logo img.wm{height:38px !important;filter:brightness(0) invert(1)}
 @media (max-width:900px){.logo img.wm{height:34px !important}}
+/* giriş yapmış kullanıcı */
+.me-av{width:40px;height:40px;border-radius:50%;background:var(--dark);color:#fff;display:grid;place-items:center;font-weight:700;font-size:14px;overflow:hidden;flex:none}
+.me-av img{width:100%;height:100%;object-fit:cover}
+.mine{padding:40px 0 0}
+.mine-head{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px}
+.mine-head h2{font-size:26px}
+.mine-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.mine-list .mut{grid-column:1/-1;color:var(--mut)}
+.mine-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;transition:.15s}
+.mine-card:hover{border-color:var(--g)}
+.mine-card b{font-size:16px}
+.mine-card small{color:var(--mut);font-size:13px}
+.mine-card .st{font-size:12.5px;font-weight:700;color:var(--mut)}
+.mine-card .st.on{color:var(--g)}
+@media (max-width:900px){.mine-list{grid-template-columns:1fr}.mine-head h2{font-size:22px}.me-av{width:36px;height:36px}}
