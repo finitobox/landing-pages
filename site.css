@@ -133,3 +133,5 @@ footer .copy{border-top:1px solid #222a26;margin-top:28px;padding-top:20px;font-
 .kv{display:grid;grid-template-columns:200px 1fr;gap:8px 16px;font-size:15.5px}
 .kv b{color:var(--mut);font-weight:500}
 @media (max-width:900px){.page h1{font-size:34px}.grid2{grid-template-columns:1fr}.kv{grid-template-columns:1fr}.kv b{margin-top:8px}}
+.ask .hint{color:var(--mut);font-size:13.5px;padding-left:8px}
+@media (max-width:900px){.ask .hint{font-size:12.5px}}
