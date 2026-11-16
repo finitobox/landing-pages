@@ -136,5 +136,5 @@ footer .copy{border-top:1px solid #222a26;margin-top:28px;padding-top:20px;font-
 .ask .hint{color:var(--mut);font-size:13.5px;padding-left:8px}
 @media (max-width:900px){.ask .hint{font-size:12.5px}}
 .logo img.wm{width:auto;height:42px;border-radius:0}
-footer .logo img.wm{height:38px;filter:brightness(0) invert(1)}
-@media (max-width:900px){.logo img.wm{height:34px}}
+footer .logo img.wm{height:38px !important;filter:brightness(0) invert(1)}
+@media (max-width:900px){.logo img.wm{height:34px !important}}
