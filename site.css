@@ -154,3 +154,15 @@ footer .logo img.wm{height:38px !important;filter:brightness(0) invert(1)}
 .mine-card .st{font-size:12.5px;font-weight:700;color:var(--mut)}
 .mine-card .st.on{color:var(--g)}
 @media (max-width:900px){.mine-list{grid-template-columns:1fr}.mine-head h2{font-size:22px}.me-av{width:36px;height:36px}}
+/* yasal sayfalar */
+.legal h1{font-size:40px;color:var(--dark);margin-bottom:10px}
+.legal h2{font-size:22px;margin:32px 0 10px}
+.legal h3{font-size:18px;margin:22px 0 8px}
+.legal p,.legal li{font-size:16px;line-height:1.65;color:#2b3631}
+.legal p{margin:8px 0}
+.legal ul,.legal ol{padding-left:22px;display:grid;gap:6px;margin:8px 0}
+.legal section{margin-top:8px;padding:0}
+.legal a{color:var(--g)}
+.legal table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14.5px}
+.legal td,.legal th{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+@media (max-width:900px){.legal h1{font-size:30px}}
