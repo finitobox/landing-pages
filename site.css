@@ -173,5 +173,5 @@ footer .logo img.wm{height:38px !important;filter:brightness(0) invert(1)}
 .hero{padding-top:44px;padding-bottom:64px}
 .hero .wrap{align-items:start}
 .hero .wrap > div:first-child h1{margin-top:0}
-.hero .replies{margin-top:24px}
+.hero .replies{margin-top:0}
 @media (max-width:900px){.hero{padding-top:32px}.hero .replies{margin-top:0}}
